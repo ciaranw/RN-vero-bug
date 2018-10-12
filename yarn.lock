@@ -4092,7 +4092,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.5.8, prop-types@^15.6.2:
+prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   dependencies:
@@ -4242,6 +4242,12 @@ react-transform-hmr@^1.0.4:
   dependencies:
     global "^4.3.0"
     react-proxy "^1.1.7"
+
+react-viro@^2.11.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/react-viro/-/react-viro-2.11.0.tgz#ce5020be36b5c1e5aafd012f3d6777d57962fd03"
+  dependencies:
+    prop-types "^15.5.10"
 
 react@16.6.0-alpha.8af6728:
   version "16.6.0-alpha.8af6728"
