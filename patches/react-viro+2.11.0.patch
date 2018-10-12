@@ -1,0 +1,51 @@
+patch-package
+--- a/node_modules/react-viro/components/ViroAmbientLight.js
++++ b/node_modules/react-viro/components/ViroAmbientLight.js
+@@ -14,7 +14,6 @@
+ 
+ import { requireNativeComponent, View, StyleSheet, Platform } from 'react-native';
+ import React, { Component } from 'react';
+-import normalizeColor from "react-native/Libraries/StyleSheet/normalizeColor"
+ var NativeModules = require('react-native').NativeModules;
+ var createReactClass = require('create-react-class');
+ import PropTypes from 'prop-types';
+--- a/node_modules/react-viro/components/ViroDirectionalLight.js
++++ b/node_modules/react-viro/components/ViroDirectionalLight.js
+@@ -13,7 +13,6 @@
+ 
+ import { requireNativeComponent, View, StyleSheet, Platform } from 'react-native';
+ import React, { Component } from 'react';
+-import normalizeColor from "react-native/Libraries/StyleSheet/normalizeColor"
+ var NativeModules = require('react-native').NativeModules;
+ var createReactClass = require('create-react-class');
+ import PropTypes from 'prop-types';
+--- a/node_modules/react-viro/components/ViroOmniLight.js
++++ b/node_modules/react-viro/components/ViroOmniLight.js
+@@ -13,7 +13,6 @@
+ 
+ import { requireNativeComponent, View, StyleSheet, Platform } from 'react-native';
+ import React, { Component } from 'react';
+-import normalizeColor from "react-native/Libraries/StyleSheet/normalizeColor"
+ var NativeModules = require('react-native').NativeModules;
+ var createReactClass = require('create-react-class');
+ import PropTypes from 'prop-types';
+--- a/node_modules/react-viro/components/ViroSkyBox.js
++++ b/node_modules/react-viro/components/ViroSkyBox.js
+@@ -14,7 +14,6 @@
+ import { requireNativeComponent, View, StyleSheet, Platform } from 'react-native';
+ import React, { Component } from 'react';
+ import resolveAssetSource from "react-native/Libraries/Image/resolveAssetSource";
+-import normalizeColor from "react-native/Libraries/StyleSheet/normalizeColor"
+ var NativeModules = require('react-native').NativeModules;
+ var createReactClass = require('create-react-class');
+ 
+--- a/node_modules/react-viro/components/ViroSpotLight.js
++++ b/node_modules/react-viro/components/ViroSpotLight.js
+@@ -13,7 +13,6 @@
+ 
+ import { requireNativeComponent, View, StyleSheet, Platform } from 'react-native';
+ import React, { Component } from 'react';
+-import normalizeColor from "react-native/Libraries/StyleSheet/normalizeColor"
+ var NativeModules = require('react-native').NativeModules;
+ var createReactClass = require('create-react-class');
+ import PropTypes from 'prop-types';
