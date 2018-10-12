@@ -17,6 +17,10 @@ ViroMaterials.createMaterials({
 });
 
 export default class Test3DScene extends React.PureComponent {
+    addingThisCrashesApp = () => {
+        //empty function
+    };
+
     render() {
         return (
             <ViroScene
@@ -53,6 +57,7 @@ export default class Test3DScene extends React.PureComponent {
                         type: 'Static',
                         restitution: 0.65
                     }}
+                    onCollision={this.addingThisCrashesApp}
                 />
             </ViroScene>
         );
